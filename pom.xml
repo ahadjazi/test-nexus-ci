@@ -27,8 +27,8 @@
     <!-- Depot associe au projet courant (important pour les releases) impossible
 		variabiliser car maven release y touche -->
     <scm>
-        <connection>scm:svn:https://github.com/ahadjazi/JEE.git</connection>
-        <developerConnection>scm:svn:https://github.com/ahadjazi/JEE.git</developerConnection>
+        <connection>scm:svn:https://github.com/ahadjazi/test-nexus-ci.git</connection>
+        <developerConnection>scm:svn:https://github.com/ahadjazi/test-nexus-ci.git</developerConnection>
     </scm>
 
     <distributionManagement>
