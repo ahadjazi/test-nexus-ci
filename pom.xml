@@ -34,11 +34,11 @@
     <distributionManagement>
         <repository>
             <id>sejeltech-releases</id>
-            <url>http://localhost:8081/content/repositories/releases</url>
+            <url>http://nexus:8080/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>sejeltech-snapshots</id>
-            <url>http://localhost:8081/content/repositories/snapshots</url>
+            <url>http://nexus:8080/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -47,7 +47,7 @@
         <!-- Groupes de depots Kazan (nouvelle forge) -->
         <repository>
             <id>sejeltech-groups-public</id>
-            <url>http://localhost:8081/content/groups/public/</url>
+            <url>http://nexus:8080/content/groups/public/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -57,7 +57,7 @@
         </repository>
         <repository>
             <id>sejeltech-release-repo</id>
-            <url>http://localhost:8081/content/repositories/releases</url>
+            <url>http://nexus:8080/content/repositories/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -67,7 +67,7 @@
         </repository>
         <repository>
             <id>sejeltech-snapshot-repo</id>
-            <url>http://localhost:8081/content/repositories/snapshots</url>
+            <url>http://nexus:8080/content/repositories/snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
