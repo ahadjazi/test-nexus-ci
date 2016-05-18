@@ -134,6 +134,19 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${maven.war.plugin.version}</version>
             </plugin>
+            <plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                <artifactId>jboss-as-maven-plugin</artifactId>
+                <version>7.7.Final</version>
+                <configuration>
+                    <hostname>wildfly</hostname>
+                    <port>9999</port>
+                    <username>admin</username>
+                    <password>admin</password>
+                    <name>test-nexus-ci</name>
+                    <filename>test-nexus-ci-1.0.1-SNAPSHOT.war</filename>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
