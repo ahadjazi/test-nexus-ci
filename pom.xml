@@ -78,16 +78,7 @@
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>org.wildfly</groupId>
-            <artifactId>wildfly-cli</artifactId>
-            <version>8.2.1.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>log4j-over-slf4j</artifactId>
-            <version>1.7.7</version>
-        </dependency>
+
     </dependencies>
     <build>
         <pluginManagement>
@@ -135,12 +126,12 @@
                 <version>${maven.war.plugin.version}</version>
             </plugin>
             <plugin>
-                <groupId>org.jboss.as.plugins</groupId>
-                <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.7.Final</version>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.1.0.Alpha8</version>
                 <configuration>
                     <hostname>wildfly</hostname>
-                    <port>9999</port>
+                    <port>9990</port>
                     <username>admin</username>
                     <password>admin</password>
                     <name>test-nexus-ci</name>
