@@ -34,11 +34,11 @@
     <distributionManagement>
         <repository>
             <id>sejeltech-releases</id>
-            <url>http://nexus:8081/repository/maven-releases</url>
+            <url>http://localhost:8081/repository/maven-releases</url>
         </repository>
         <snapshotRepository>
             <id>sejeltech-snapshots</id>
-            <url>http://nexus:8081/repository/maven-snapshots/</url>
+            <url>http://localhost:8081/repository/maven-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -47,7 +47,7 @@
         <!-- Groupes de depots Kazan (nouvelle forge) -->
         <repository>
             <id>sejeltech-groups-public</id>
-            <url>http://nexus:8081/repository/maven-public/</url>
+            <url>http://localhost:8081/repository/maven-public</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -57,7 +57,7 @@
         </repository>
         <repository>
             <id>sejeltech-release-repo</id>
-            <url>http://nexus:8081/repository/maven-releases/</url>
+            <url>http://localhost:8081/repository/maven-releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -67,7 +67,7 @@
         </repository>
         <repository>
             <id>sejeltech-snapshot-repo</id>
-            <url>http://nexus:8081/repository/maven-snapshots/</url>
+            <url>http://localhost:8081/repository/maven-snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
